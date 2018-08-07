@@ -1,0 +1,78 @@
+header {
+  font-family: Monospace;
+  font: bold;
+  font-size: 300%;
+  padding:20px;
+  text-align: center;
+}
+
+.flex-container {
+  font-family: monospace;
+  font: bold;
+  font-size: 150%;
+  padding: 10px;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+}
+
+.donezo {
+  font: blue;
+}
+
+.map {
+  height:500px;
+  width:700px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform:(-50%, -50%);
+  font-family: Monospace;
+}
+
+.container-states {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px
+}
+
+.states {
+  height:200px;
+  width:300px;
+  padding:5px;
+  position:relative;
+}
+
+.states img {
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+}
+
+.states1 {
+  background-image:url("https://i.ytimg.com/vi/nZY3PIOkteQ/maxresdefault.jpg");
+  background-size: 100%;
+  font-family: monospace;
+  text-align:center;
+
+}
+
+.states div {
+  z-index:9999;
+}
